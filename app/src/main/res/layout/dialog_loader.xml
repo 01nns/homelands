@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/globe_loading"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/view_size_xxxlarge"
+        android:layout_height="@dimen/view_size_xxxlarge"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/globe"
+        app:lottie_loop="true" />
+
+</RelativeLayout>
