@@ -2,9 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="ligh_orange">#FFBF9D</color>
+    <color name="light_orange">#FFBF9D</color>
     <color name="orange">#FF725E</color>
     <color name="dark_gray">#263238</color>
     <color name="med_gray">#455A64</color>
     <color name="light_gray">#E0E0E0</color>
+    <color name="shimmer_item_color">#808080</color>
 </resources>

@@ -2,6 +2,7 @@ plugins {
     id ("com.android.application")
     id("kotlin-android")
     id("kotlin-kapt")
+    id("kotlin-parcelize")
 }
 
 val appName = "Homelands"
@@ -71,6 +72,8 @@ dependencies {
 
     implementation ("com.github.bumptech.glide:glide:4.13.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.13.0")
+
+    implementation("com.facebook.shimmer:shimmer:0.5.0")
 
     //Lottie
     implementation("com.airbnb.android:lottie:3.4.0")

@@ -43,7 +43,7 @@
     <!-- Radius -->
     <dimen name="radius_size_tiny">10dp</dimen>
     <dimen name="radius_size_small">16dp</dimen>
-    <dimen name="radius_size_normal">24dp</dimen>
+    <dimen name="radius_size_normal">22dp</dimen>
     <dimen name="radius_size_large">50dp</dimen>
     <!-- View -->
     <dimen name="view_size_tiny">16dp</dimen>
@@ -54,6 +54,14 @@
     <dimen name="view_size_xlarge">80dp</dimen>
     <dimen name="view_size_xxlarge">114dp</dimen>
     <dimen name="view_size_xxxlarge">148dp</dimen>
-    <dimen name="view_size_header">250dp</dimen>
+    <dimen name="view_size_header">200dp</dimen>
     <dimen name="view_elevation_default">15dp</dimen>
+
+    <dimen name="imageWidth">74dp</dimen>
+    <dimen name="imageHeight">74dp</dimen>
+    <dimen name="marginStandard">12dp</dimen>
+    <dimen name="paddingStandard">8dp</dimen>
+    <dimen name="textSizeHeading">12sp</dimen>
+    <dimen name="textSizeDescription">10sp</dimen>
+    <dimen name="shimmerItemHeight">90dp</dimen>
 </resources>

@@ -10,8 +10,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.nnss.dev.homelands.data.remote.model.RestCountriesResponse
 import com.nnss.dev.homelands.databinding.ItemCountryBinding
+import com.nnss.dev.homelands.databinding.ItemCountryGridBinding
 
-class CountriesAdapter( val listener: OnSelectCountryListener) : RecyclerView.Adapter<CountriesAdapter.CountryViewHolder>(), Filterable {
+class CountriesGridAdapter(val listener: OnSelectCountryListener) : RecyclerView.Adapter<CountriesGridAdapter.CountryViewHolder>(), Filterable {
 
 
     private val searchableList = arrayListOf<RestCountriesResponse>()
@@ -29,8 +30,8 @@ class CountriesAdapter( val listener: OnSelectCountryListener) : RecyclerView.Ad
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CountryViewHolder {
-        val binding: ItemCountryBinding =
-            ItemCountryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding: ItemCountryGridBinding =
+            ItemCountryGridBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return CountryViewHolder(binding)
     }
 
@@ -79,7 +80,7 @@ class CountriesAdapter( val listener: OnSelectCountryListener) : RecyclerView.Ad
     }
 
     inner class CountryViewHolder(
-        private val view: ItemCountryBinding
+        private val view: ItemCountryGridBinding
     ) : RecyclerView.ViewHolder(view.root) {
 
         @SuppressLint("CheckResult")

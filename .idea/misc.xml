@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/drawable/bg_fragment_container_rounded_corners_top.xml" value="0.234" />
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/drawable/header.xml" value="0.234" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/drawable/tourist_spots.xml" value="0.234" />
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/activity_details.xml" value="0.36302083333333335" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/dialog_loader.xml" value="0.36302083333333335" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/fragment_all.xml" value="0.36302083333333335" />
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/fragment_details.xml" value="0.16666666666666666" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/item_country.xml" value="0.36302083333333335" />
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/item_country_grid.xml" value="0.17552083333333332" />
         <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/loader.xml" value="0.36302083333333335" />
+        <entry key="..\:/dev/Homelands/homelands/app/src/main/res/layout/shimmer_placeholder.xml" value="0.36302083333333335" />
       </map>
     </option>
   </component>

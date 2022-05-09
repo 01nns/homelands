@@ -4,8 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingHorizontal="@dimen/margin_padding_normal"
     android:id="@+id/item_container"
-    android:gravity="center_vertical"
-    android:layout_marginVertical="@dimen/margin_padding_small"
+    android:gravity="center"
+    android:orientation="vertical"
     android:layout_height="wrap_content">
 
     <ImageView
@@ -15,9 +15,10 @@
 
     <TextView
         android:layout_width="0dp"
-        android:layout_marginStart="@dimen/margin_padding_normal"
+        android:layout_marginTop="@dimen/margin_padding_small"
         android:layout_weight="1"
-        style="@style/Text.Title"
+        style="@style/Text.Header"
+        android:textSize="@dimen/text_size_small"
         android:textColor="@color/med_gray"
         android:layout_height="wrap_content"
         android:id="@+id/txt_country_name"/>

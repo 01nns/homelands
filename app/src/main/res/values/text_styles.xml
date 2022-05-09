@@ -12,7 +12,7 @@
 
     <style name="Text.Header" parent="Text">
         <item name="android:textSize">@dimen/text_size_large</item>
-        <item name="android:fontFamily">@font/gilroy_extra_bold</item>
+        <item name="android:fontFamily">@font/gilroy_bold</item>
     </style>
 
     <style name="Text.Body1" parent="Text">
@@ -26,9 +26,9 @@
     </style>
 
     <style name="Text.Button" parent="Text">
-        <item name="android:textSize">@dimen/text_size_xnormal</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:fontFamily">@font/gilroy_bold</item>
     </style>
 
     <style name="Text.Title" parent="Text">

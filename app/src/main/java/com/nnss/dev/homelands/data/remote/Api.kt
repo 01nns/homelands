@@ -9,4 +9,9 @@ import retrofit2.http.Query
 interface Api {
     @GET("all")
     suspend fun getAllCountries(): Response<ArrayList<RestCountriesResponse>>
+
+    @GET("name/{query}")
+    suspend fun getCountryByName(
+        @Path("query") name: String?
+    ): Response<ArrayList<RestCountriesResponse>>
 }

@@ -11,6 +11,7 @@
     <ImageView
         android:layout_width="@dimen/view_size_xlarge"
         android:layout_height="@dimen/view_size_large"
+        android:background="@color/light_gray"
         android:id="@+id/img_flag"/>
 
     <TextView
@@ -20,6 +21,7 @@
         style="@style/Text.Title"
         android:textColor="@color/med_gray"
         android:layout_height="wrap_content"
+        android:background="@color/light_gray"
         android:id="@+id/txt_country_name"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

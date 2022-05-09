@@ -16,8 +16,8 @@ object UIDialog {
         dialog?.setContentView(binding.root)
         dialog?.setCancelable(false)
         dialog?.window?.apply {
-            decorView.setBackgroundResource(android.R.color.transparent)
-            setDimAmount(0f)
+            decorView.setBackgroundResource(R.color.white)
+//            setDimAmount(0f)
             setLayout(
                 WindowManager.LayoutParams.MATCH_PARENT,
                 WindowManager.LayoutParams.MATCH_PARENT
